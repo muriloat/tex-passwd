@@ -1,0 +1,24 @@
+{
+    "name": "tex-passwd",
+    "version": "1.0.0",
+    "description": "A multipurpose password generator that adapts to different contexts",
+    "main": "index.js",
+    "bin": {
+        "tex-passwd": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "password",
+        "generator",
+        "security",
+        "cli"
+    ],
+    "author": "Murilo Teixeira",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^11.0.0",
+        "secure-random-string": "^1.1.4"
+    }
+}
